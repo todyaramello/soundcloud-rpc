@@ -1,0 +1,13 @@
+{
+  "name": "soundcloud-rpc-server",
+  "version": "1.0.0",
+  "description": "Local WebSocket server that bridges SoundCloud playback to Discord Rich Presence",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "ws": "^8.18.0"
+  }
+}

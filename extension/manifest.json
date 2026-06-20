@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "SoundCloud RPC",
+  "version": "1.0.0",
+  "description": "Shows your SoundCloud listening activity on Discord via Rich Presence",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://soundcloud.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://soundcloud.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "SoundCloud RPC",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  }
+}
