@@ -124,5 +124,5 @@ function tick() {
   }
 }
 
-const interval = setInterval(tick, 1500);
+const interval = setInterval(tick, 2000);
 setTimeout(tick, 500);
