@@ -108,5 +108,6 @@ wss.on('connection', (ws) => {
 
 console.log('╔══════════════════════════════════════════╗');
 console.log('║   SoundCloud Discord Rich Presence       ║');
+console.log('║   Server starting up...                  ║');
 console.log('╚══════════════════════════════════════════╝');
 initRPC();
