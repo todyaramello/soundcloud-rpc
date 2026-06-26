@@ -16,7 +16,7 @@ function updateUI(msg) {
       <div class="track-time">${msg.data.isPlaying ? '▶ playing' : '⏸ paused'} ${msg.data.currentTime} / ${msg.data.totalTime}</div>
     `;
   } else if (connected) {
-    trackInfo.innerHTML = `<div class="empty">no track yet — open soundcloud and play smth</div>`;
+    trackInfo.innerHTML = `<div class="empty">no track yet - open soundcloud and play smth</div>`;
   } else {
     trackInfo.innerHTML = `<div class="empty">waiting for server...</div>`;
   }
