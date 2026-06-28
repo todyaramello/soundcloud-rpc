@@ -17,7 +17,7 @@ It works by reading the current song directly from the SoundCloud web player thr
 
 - Node.js 18+
 - Discord Desktop Application (any version works)
-- Every chromium browser, such as: Chrome, Edge, Brave, Opera and more
+- Any chromium browser, such as: Chrome, Edge, Brave, Opera and more
 
 ## Installation
 
