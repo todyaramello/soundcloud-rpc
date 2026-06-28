@@ -1,7 +1,7 @@
 const DiscordRPC = require('discord-rpc');
 const WebSocket = require('ws');
 
-const CLIENT_ID = '1520467260727103609';
+const CLIENT_ID = '1520467260727103609'; // replace with your bots application id
 
 const WS_PORT = 8765;
 
