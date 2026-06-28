@@ -56,11 +56,13 @@ Content Script
      ▼
 Background Service Worker
      │
+     ▼
 WebSocket (localhost:8765)
      │
      ▼
 Node.js RPC Server
      │
+     ▼
 Discord IPC
      │
      ▼
