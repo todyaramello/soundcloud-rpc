@@ -1,6 +1,7 @@
 # SoundCloud RPC
 
 This uses a chrome extension and a local server to show the music you are listening to on SoundCloud, it looks similar to PreMid's but with some additional features, easier to setup and lightweight.
+
 It works by reading the current song directly from the SoundCloud web player through the chrome extension then sending that information to the websocket, and then updating the Discord RPC through the Discord IPC API.
 
 ## Features
